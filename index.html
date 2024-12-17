@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Визитка Разработчика</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Мой Портфолио</title>
 </head>
 <body>
     <header>
         <h1>Привет, я разработчик!</h1>
-        <p>С многолетним опытом работы в сфере веб с уклоном в кибербезопасность.</p>
+        <div class="photo-container">
+            <img src="path/to/your/photo.jpg" alt="Мое фото" width="400" height="200">
+        </div>
     </header>
-    <section id="about">
-        <h2>Обо мне</h2>
-        <p>Специализируюсь на создании безопасных, масштабируемых и эффективных решений с использованием современных технологий, таких как JavaScript, React, React Native, Node.js, WordPress и других. Мой опыт охватывает как разработку пользовательских интерфейсов, так и создание серверной логики. Умею решать сложные задачи, оптимизировать приложения и работать над улучшением пользовательского опыта. Постоянно совершенствую свои навыки и слежу за новыми трендами в IT-индустрии.</p>
+    
+    <section class="skills">
+        <h2>Мои навыки</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+        </div>
     </section>
-    <section id="skills">
-        <h2>Навыки</h2>
-        <ul>
-            <li>React Native</li>
-            <li>HTML & CSS</li>
-            <li>Поддержка сайта</li>
-            <li>Security</li>
-            <li>Linux</li>
-            <li>Penetration Testing</li>
-            <li>SQL</li>
-            <li>WordPress</li>
-            <li>JavaScript</li>
-            <li>CMS</li>
-            <li>TypeScript</li>
-            <li>Node.js</li>
-        </ul>
+
+    <section class="portfolio">
+        <h2>Мои проекты</h2>
+        <div class="portfolio-container">
+            <img src="path/to/project1.jpg" alt="Проект 1">
+            <img src="path/to/project2.jpg" alt="Проект 2">
+            <img src="path/to/project3.jpg" alt="Проект 3">
+            <!-- Добавьте больше изображений по мере необходимости -->
+        </div>
     </section>
+
     <footer>
-        <p>Свяжитесь со мной: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <h2>Свяжитесь со мной</h2>
+        <a href="https://t.me/term51" target="_blank">
+            <img src="path/to/telegram-icon.png" alt="Telegram" class="telegram-icon">
+        </a>
     </footer>
 </body>
 </html>
